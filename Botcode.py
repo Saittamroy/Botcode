@@ -93,6 +93,6 @@ class MathGameBot(BaseBot):
         await __main__.main(self, room_id, token)
 
 if __name__ == "__main__":
-    room_id = "644bafe34e9c36a645617a1a"
-    token  = "dece6c35ba6f0508b486525d64eead864464fde33c31ab3379490efd2ffebaf2"
+    room_id = "6031f61f562bc94adfe45c85"
+    token  = "fb628984143e90b9ee940653e29872e4e82f941715d0a14c1e341baf9fdffca6"
     arun(MathGameBot().run(room_id, token))
